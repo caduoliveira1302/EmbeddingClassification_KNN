@@ -41,23 +41,40 @@ Hierarchy:
 ○	Use t-SNE to reduce the dimensionality of the embeddings to 2D.
 
    ■	Generate a plot that visualizes the embeddings colored by their syndrome_id.
+   
    ■	Identify and interpret clusters or patterns in the visualization.
+   
    ■	Discuss how these patterns might relate to the classification task.
 
+
 *3.	Classification Task:*
+
 ○	Implement the K-Nearest Neighbors (KNN) algorithm to classify the embeddings into their respective syndrome_id.
+
 ■	Use both Cosine and Euclidean distance metrics.
+
 ■	Perform 10-fold cross-validation to evaluate the model performance.
+
 ■	Determine the optimal value of kk (from 1 to 15) for KNN using cross-validation.
+
 ■	Implement:
+
 ■	Calculation of AUC (Area Under the ROC Curve).
+
 ■	F1-Score.
+
 ■	Top-k Accuracy.
 
+
 *4.	Metrics and Evaluation:*
+
 ○	Generate ROC AUC curves for both Cosine and Euclidean distance metrics.
+
 ■	Average the results across the cross-validation folds.
+
 ■	Plot both curves on the same graph for comparison.
+
 ○	Create tables summarizing the performance metrics for both algorithms.
+
 ■	Include metrics such as Top-k Accuracy, AUC, F1-Score, etc.
 
