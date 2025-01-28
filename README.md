@@ -8,13 +8,20 @@ Your objective is to implement a comprehensive pipeline that includes data prepr
 
 You are provided with a pickle file (mini_gm_public_v0.1.p) that contains all the necessary data. The data structure is as follows:
 ●	Embeddings: 320-dimensional vectors representing images.
+
 Hierarchy:
+ 
  {
+ 
   'syndrome_id': {
+  
     'subject_id': {
+    
       'image_id': [320-dimensional embedding]
     }
+    
   }
+  
 }
 
 ●	Goal: Use these embeddings to classify the syndrome_id associated with each image.
