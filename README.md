@@ -22,18 +22,27 @@ Hierarchy:
 ##### **Task Description**
 
 *1.	Data Processing:*
+
 ○	Load and preprocess the data from the pickle file.
-■	Flatten the hierarchical data structure into a suitable format for analysis.
-■	Ensure data integrity and handle any missing or inconsistent data.
+
+   ■	Flatten the hierarchical data structure into a suitable format for analysis.
+   
+   ■	Ensure data integrity and handle any missing or inconsistent data.
+   
 ○	Exploratory Data Analysis:
-■	Provide statistics about the dataset (e.g., number of syndromes, images per syndrome).
-■	Discuss any data imbalances or patterns observed.
+
+   ■	Provide statistics about the dataset (e.g., number of syndromes, images per syndrome).
+
+   ■	Discuss any data imbalances or patterns observed.
+   
 
 *2.	Data Visualization:*
+
 ○	Use t-SNE to reduce the dimensionality of the embeddings to 2D.
-■	Generate a plot that visualizes the embeddings colored by their syndrome_id.
-■	Identify and interpret clusters or patterns in the visualization.
-■	Discuss how these patterns might relate to the classification task.
+
+   ■	Generate a plot that visualizes the embeddings colored by their syndrome_id.
+   ■	Identify and interpret clusters or patterns in the visualization.
+   ■	Discuss how these patterns might relate to the classification task.
 
 *3.	Classification Task:*
 ○	Implement the K-Nearest Neighbors (KNN) algorithm to classify the embeddings into their respective syndrome_id.
