@@ -14,9 +14,7 @@ Hierarchy:
  {
  
   'syndrome_id': {
-  
     'subject_id': {
-    
       'image_id': [320-dimensional embedding]
     }
     
